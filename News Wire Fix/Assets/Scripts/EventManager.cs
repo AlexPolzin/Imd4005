@@ -3,10 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using EventDev;
 public class EventManager : MonoBehaviour {
-    public TriggerObj phone;
-    //public TriggerObj radio;
-    //public TriggerObj computer;
-    //public TriggerObj twitter;
+
     public Plan plan;
 
 

@@ -1,0 +1,6 @@
+time , "device", "content", "name", {"kewords1", "keywords2?"}, reputationChange, Image if there is one
+
+float, 	"Phone",  string   ,string,   []string                , float            , 
+	"Tweet"
+	"Radio"
+5s, "Tweet", "sources claim explosion in this part of town", "Mr. tweeet", {"Exl"}, 13f, explosion image

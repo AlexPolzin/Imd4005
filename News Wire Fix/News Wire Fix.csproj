@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Events.cs" />
     <Compile Include="Assets\Scripts\Plan.cs" />
     <Compile Include="Assets\Scripts\PlayerMovment.cs" />
+    <Compile Include="Assets\Scripts\TextRe.cs" />
     <Compile Include="Assets\Scripts\TriggerObj.cs" />
     <Compile Include="Assets\Scripts\startScreen.cs" />
     <Compile Include="Assets\Scripts\timer.cs" />

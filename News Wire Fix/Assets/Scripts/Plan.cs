@@ -15,8 +15,8 @@ public class Plan : MonoBehaviour {
 	void Start () {
 
         timeline.Add(new EventDev.Events(2f, "this is and event", "Phone",0f));
-        //timeline.Add(new EventDev.Events(3f, "this is and event2", "Phone", 0f));
-        //timeline.Add(new EventDev.Events(4f, "this is and event3", "Phone", 0f));
+        timeline.Add(new EventDev.Events(3f, "this is and event2", "Radio", 0f));
+        timeline.Add(new EventDev.Events(4f, "this is and event3", "Tweet", 0f));
 	}
 	
 	// Update is called once per frame

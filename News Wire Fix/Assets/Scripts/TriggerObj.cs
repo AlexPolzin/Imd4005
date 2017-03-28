@@ -6,18 +6,19 @@ public class TriggerObj : MonoBehaviour {
     public GameObject test;
     public float speed = 0.5f;
     public bool shake = true;
+    public float timer = 3f;
 
     [HideInInspector]
     public EventDev.Events currentEvent;
 
 
-
+    private Vector3 sScale;
     private bool triggered = false;
     private Vector3 notice;
-    private float timer = 2f;
     private float timeL = 2f;
     void Start () {
         notice = test.transform.position;
+        sScale = test.transform.localScale;
         test.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
     }
 	
@@ -45,6 +46,10 @@ public class TriggerObj : MonoBehaviour {
         if (shake == true)
         {
             test.transform.rotation = new Quaternion(0, 0, Mathf.Sin(Time.time * 16) / 4, test.transform.rotation.w);
+        }
+        else
+        {
+            test.transform.localScale = new Vector3(sScale.x + Mathf.Sin(Time.time * 16) / 16, sScale.x + Mathf.Sin(Time.time * 16) / 16, sScale.z);
         }
         
     }

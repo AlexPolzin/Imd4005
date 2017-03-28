@@ -11,6 +11,7 @@ public class PlayerMovment : MonoBehaviour {
     [HideInInspector]
     public TriggerObj trigger;
 
+    private bool inting = true;
     private SpriteRenderer sprite;
     private Animator animator;
 
@@ -30,7 +31,12 @@ public class PlayerMovment : MonoBehaviour {
 
         if (Input.GetKeyDown("space"))
         {
-            animator.SetTrigger("Interact");
+            if(inting)
+                animator.SetTrigger("Interact");
+            else
+                animator.SetTrigger("Idle");
+
+            
             if (trigger)
             {
                 if (trigger.currentEvent != null)

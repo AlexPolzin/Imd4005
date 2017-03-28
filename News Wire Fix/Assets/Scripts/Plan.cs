@@ -7,6 +7,7 @@ using EventDev;
 public class Plan : MonoBehaviour {
 
     //[Serializable]
+    public List<Sprite> images;
     public List<EventDev.Events> timeline;
 
     public float filler = 0f;
@@ -14,9 +15,9 @@ public class Plan : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        timeline.Add(new EventDev.Events(2f, "this is and event", "Phone",0f));
-        timeline.Add(new EventDev.Events(3f, "this is and event2", "Radio", 0f));
-        timeline.Add(new EventDev.Events(4f, "this is and event3", "Tweet", 0f));
+        timeline.Add(new EventDev.Events(2f, "Phone", "this is and event", "Mr. Phone",new string[] { " is " }, 0f));
+        timeline.Add(new EventDev.Events(3f, "Radio", "this is and event2", "Mr. Radio", new string[] { " and " }, 0f));
+        timeline.Add(new EventDev.Events(4f, "Tweet", "this is and event3", "Mr. Tweet", new string[] { " event " }, 0f, images[0]));
 	}
 	
 	// Update is called once per frame

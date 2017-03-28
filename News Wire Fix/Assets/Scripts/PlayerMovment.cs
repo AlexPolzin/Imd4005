@@ -31,7 +31,6 @@ public class PlayerMovment : MonoBehaviour {
         if (Input.GetKeyDown("space"))
         {
             animator.SetTrigger("Interact");
-            //Debug.Log(trigger);
             if (trigger)
             {
                 if (trigger.currentEvent != null)

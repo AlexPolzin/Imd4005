@@ -9,12 +9,14 @@ namespace EventDev
     {
         public float time = 100000000000f;
         public string words = "";
-        public float function = -1f;
-        public Events(float aTime, string aText, float aF)
+        public string function = "";
+        public float score = 0f;
+        public Events(float aTime, string aText, string aF, float sf)
         {
             time = aTime;
             words = aText;
             function = aF;
+            score = sf;
         }
         
         

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d8ee05a19d21efb488d1f3239e209786
+timeCreated: 1490728645
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Cumberland AMT
+  fontNames:
+  - Cumberland AMT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

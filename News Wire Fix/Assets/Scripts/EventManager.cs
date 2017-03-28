@@ -13,9 +13,9 @@ public class EventManager : MonoBehaviour {
     private float timerStart;
     void Start () {
         timerStart = Time.time;
-        if ((plan == null) && (GetComponent<Plan>() != null))
-        {
-            plan = GetComponent<Plan>();
+        if (plan.timeline != null)
+        { //&& (GetComponent<Plan>() != null)
+            //plan = GetComponent<Plan>();
         }
         else
         {
@@ -25,13 +25,13 @@ public class EventManager : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate() {
-        //Debug.Log(plan.filler);
         List<int> arr = new List<int>();
         for (int i = 0; i < plan.timeline.Count; i++)
         { 
             if (Time.time - timerStart > plan.timeline[i].time)
             {
-                phone.NewEvent(plan.timeline[i]);
+                
+                GameObject.FindGameObjectWithTag(plan.timeline[i].function).GetComponent<TriggerObj>().NewEvent(plan.timeline[i]);
                 arr.Add(i);
             }
         }   

@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: 1174a519e2286cc4ab77aac1a411ff21
+timeCreated: 1490719809
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FullSpriteSheet_0
+    21300002: FullSpriteSheet_1
+    21300004: FullSpriteSheet_2
+    21300006: FullSpriteSheet_3
+    21300008: FullSpriteSheet_4
+    21300010: FullSpriteSheet_5
+    21300012: FullSpriteSheet_6
+    21300014: FullSpriteSheet_7
+    21300016: FullSpriteSheet_8
+    21300018: FullSpriteSheet_9
+    21300020: FullSpriteSheet_10
+    21300022: FullSpriteSheet_11
+    21300024: FullSpriteSheet_12
+    21300026: FullSpriteSheet_13
+    21300028: FullSpriteSheet_14
+    21300030: FullSpriteSheet_15
+    21300032: FullSpriteSheet_16
+    21300034: FullSpriteSheet_17
+    21300036: FullSpriteSheet_18
+    21300038: FullSpriteSheet_19
+    21300040: FullSpriteSheet_20
+    21300042: FullSpriteSheet_21
+    21300044: FullSpriteSheet_22
+    21300046: FullSpriteSheet_23
+    21300048: FullSpriteSheet_24
+    21300050: FullSpriteSheet_25
+    21300052: FullSpriteSheet_26
+    21300054: FullSpriteSheet_27
+    21300056: FullSpriteSheet_28
+    21300058: FullSpriteSheet_29
+    21300060: FullSpriteSheet_30
+    21300062: FullSpriteSheet_31
+    21300064: FullSpriteSheet_32
+    21300066: FullSpriteSheet_33
+    21300068: FullSpriteSheet_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FullSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1371
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1371
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1371
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1371
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1371
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1151
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1151
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1151
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1151
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1151
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 931
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 931
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 931
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 931
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 931
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 711
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 711
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 711
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 711
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 711
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 491
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 491
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 491
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 491
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 491
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 271
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 271
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 271
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 271
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 51
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 51
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 51
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FullSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 51
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

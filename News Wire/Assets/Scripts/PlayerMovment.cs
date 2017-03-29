@@ -38,8 +38,14 @@ public class PlayerMovment : MonoBehaviour {
                 
                 if (trigger.currentEvent != null)
                 {
-                    Debug.Log(trigger.currentEvent.words);
-                    trigger.currentEvent = null;
+                    for (int i = 0; i < trigger.currentEvent.Count; i++)
+                    {
+                        Debug.Log(trigger.currentEvent[i].words);
+                        if (this.GetComponent<DataHolder>())
+                            this.GetComponent<DataHolder>().NewEvent(trigger.currentEvent[i]);
+                        if(!trigger.multi)
+                            trigger.currentEvent[i] = null;
+                    }
                 }
             }
         }

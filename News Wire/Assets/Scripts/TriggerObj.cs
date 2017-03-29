@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using EventDev;
 public class TriggerObj : MonoBehaviour {
 
@@ -7,10 +8,10 @@ public class TriggerObj : MonoBehaviour {
     public float speed = 0.5f;
     public bool shake = true;
     public float timer = 3f;
+    public bool multi = false;
 
     [HideInInspector]
-    public EventDev.Events currentEvent;
-
+    public List<EventDev.Events> currentEvent;
 
     private Vector3 sScale;
     private bool triggered = false;
@@ -55,7 +56,11 @@ public class TriggerObj : MonoBehaviour {
     }
     public void NewEvent(EventDev.Events c)
     {
-        currentEvent = c;
+        if (multi)
+            currentEvent.Add(c);
+        else
+            currentEvent.Insert(0, c);
+
         triggered = true;
         test.transform.position = notice;
         test.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);

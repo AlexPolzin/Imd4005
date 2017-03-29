@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class DataHolder : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public List<EventDev.Events> Answers;
+
+    void Start () {
 		
 	}
 	
@@ -13,4 +14,8 @@ public class DataHolder : MonoBehaviour {
 	void Update () {
 		
 	}
+    public void NewEvent(EventDev.Events c)
+    {
+        Answers.Add(c);
+    }
 }

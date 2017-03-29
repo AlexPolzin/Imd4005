@@ -23,11 +23,12 @@ public class EventManager : MonoBehaviour {
     // Update is called once per frame
     void FixedUpdate() {
         List<int> arr = new List<int>();
+
         for (int i = 0; i < plan.timeline.Count; i++)
         { 
             if (Time.time - timerStart > plan.timeline[i].time)
             {
-                
+                Debug.Log(plan.timeline[i]);
                 GameObject.FindGameObjectWithTag(plan.timeline[i].function).GetComponent<TriggerObj>().NewEvent(plan.timeline[i]);
                 arr.Add(i);
             }

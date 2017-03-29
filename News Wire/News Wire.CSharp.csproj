@@ -66,9 +66,11 @@
     <Compile Include="Assets\Scripts\DataHolder.cs" />
     <Compile Include="Assets\Scripts\EventManager.cs" />
     <Compile Include="Assets\Scripts\Events.cs" />
+    <Compile Include="Assets\Scripts\Notepad.cs" />
     <Compile Include="Assets\Scripts\Plan.cs" />
     <Compile Include="Assets\Scripts\PlayerMovment.cs" />
     <Compile Include="Assets\Scripts\RepMeter.cs" />
+    <Compile Include="Assets\Scripts\TDrag.cs" />
     <Compile Include="Assets\Scripts\TextRe.cs" />
     <Compile Include="Assets\Scripts\TriggerObj.cs" />
     <Compile Include="Assets\Scripts\startScreen.cs" />

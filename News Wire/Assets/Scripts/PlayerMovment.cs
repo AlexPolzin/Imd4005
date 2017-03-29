@@ -8,6 +8,8 @@ public class PlayerMovment : MonoBehaviour {
     public float yMax = 7.65f;
     public float xMin = -5.7f;
     public float yMin = -7.7f;
+    public Notepad noteP;
+
     [HideInInspector]
     public TriggerObj trigger;
 
@@ -40,11 +42,17 @@ public class PlayerMovment : MonoBehaviour {
                 {
                     for (int i = 0; i < trigger.currentEvent.Count; i++)
                     {
-                        Debug.Log(trigger.currentEvent[i].words);
+                        //Debug.Log(trigger.currentEvent[i].words);
+                        
                         if (this.GetComponent<DataHolder>())
                             this.GetComponent<DataHolder>().NewEvent(trigger.currentEvent[i]);
-                        if(!trigger.multi)
+
+                        if (!trigger.multi)
+                        {
+                            if (trigger.currentEvent[i] != null)
+                                noteP.AddNote(trigger.currentEvent[i]);
                             trigger.currentEvent[i] = null;
+                        }
                     }
                 }
             }

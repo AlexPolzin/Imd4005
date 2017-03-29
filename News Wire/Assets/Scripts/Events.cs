@@ -7,6 +7,7 @@ namespace EventDev
     [Serializable]
     public class Events
     {
+        public int id;
         public float time = 100000000000f;
         public string words = "";
         public string function = "";
@@ -14,8 +15,10 @@ namespace EventDev
         public string name = "";
         public string[] keywords;
         public Sprite img;
-        public Events(float aTime, string aF, string aText, string nf, string[] kf, float sf,Sprite imgf)
+        public int missing;
+        public Events(int idf, float aTime, string aF, string aText, string nf, string[] kf, float sf,Sprite imgf)
         {
+            id = idf;
             time = aTime;
             words = aText;
             keywords = kf;
@@ -24,8 +27,9 @@ namespace EventDev
             name = nf;
             img = imgf;
         }
-        public Events(float aTime, string aF, string aText, string nf, string[] kf, float sf)
+        public Events(int idf, float aTime, string aF, string aText, string nf, string[] kf, float sf)
         {
+            id = idf;
             time = aTime;
             words = aText;
             keywords = kf;
@@ -33,6 +37,30 @@ namespace EventDev
             score = sf;
             name = nf;
         }
+        public Events(int idf, float aTime, string aF, string aText, string nf, string[] kf, float sf, int mf)
+        {
+            id = idf;
+            time = aTime;
+            words = aText;
+            keywords = kf;
+            function = aF;
+            score = sf;
+            name = nf;
+            missing = mf;
+        }
+        public Events(int idf, float aTime, string aF, string aText, string nf, string[] kf, float sf, int mf, Sprite imgf)
+        {
+            id = idf;
+            time = aTime;
+            words = aText;
+            keywords = kf;
+            function = aF;
+            score = sf;
+            name = nf;
+            missing = mf;
+            img = imgf;
+        }
+
 
 
     }

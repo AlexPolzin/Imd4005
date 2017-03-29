@@ -28,7 +28,7 @@ public class EventManager : MonoBehaviour {
         { 
             if (Time.time - timerStart > plan.timeline[i].time)
             {
-                Debug.Log(plan.timeline[i]);
+                //Debug.Log(plan.timeline[i]);
                 GameObject.FindGameObjectWithTag(plan.timeline[i].function).GetComponent<TriggerObj>().NewEvent(plan.timeline[i]);
                 arr.Add(i);
             }

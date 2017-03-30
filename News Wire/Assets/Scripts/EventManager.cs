@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using EventDev;
+
 public class EventManager : MonoBehaviour {
 
     public Plan plan;
@@ -22,6 +23,7 @@ public class EventManager : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate() {
+        
         List<int> arr = new List<int>();
 
         for (int i = 0; i < plan.timeline.Count; i++)

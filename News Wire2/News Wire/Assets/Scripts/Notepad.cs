@@ -83,6 +83,14 @@ public class Notepad : MonoBehaviour,IDropHandler {
         notesE.Add(place(c.words, c,"words"));
         NoteUpdate();
     }
+    public void remove(GameObject c,string n)
+    {
+        if (n == "words")
+            notesE.Remove(c);
+        if (n == "name")
+            notesN.Remove(c);
+        NoteUpdate();
+    }
 
     GameObject place(string txt, EventDev.Events c,string n)
     {

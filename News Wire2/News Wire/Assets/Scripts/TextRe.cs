@@ -57,6 +57,12 @@ public class TextRe : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if(transform.parent.GetComponent<Notepad>().dropable)
+        {
+            Destroy(holder);
+            transform.parent.GetComponent<Notepad>().remove(gameObject, holding);
+            Destroy(gameObject);
+        }
         Drager = null;
         transform.position = holder.transform.position;
         GetComponent<Text>().alignment = TextAnchor.UpperLeft;

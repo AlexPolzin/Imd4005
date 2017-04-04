@@ -14,17 +14,22 @@ public class TextRe : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public GameObject prefab;
     private GameObject holder;
     public EventDev.Events e;
+    public string holding;
     // Use this for initialization
     void Start () {
         //text.supportRichText = true;
         //text.text = text.text.Replace(key, "<color=blue>"+ key+ "</color>");
+        //transform.position = new Vector3(transform.position.x + GetComponent<RectTransform>().rect.width / 2, transform.position.y);
     }
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-
+    public void SetType(string s)
+    {
+        holding = s;
+    }
     public void AddNote(EventDev.Events c)
     {
         e = c;
@@ -54,7 +59,7 @@ public class TextRe : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     {
         Drager = null;
         transform.position = holder.transform.position;
-        GetComponent<Text>().alignment = TextAnchor.MiddleLeft;
+        GetComponent<Text>().alignment = TextAnchor.UpperLeft;
         GetComponent<Text>().raycastTarget = true;
         Destroy(holder);
     }

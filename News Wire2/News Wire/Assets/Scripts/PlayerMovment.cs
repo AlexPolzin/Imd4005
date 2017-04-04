@@ -41,13 +41,20 @@ public class PlayerMovment : MonoBehaviour {
             
             if (trigger)
             {
-                if (!PlayerMove)
+                Debug.Log(trigger.transform.name + "trigger");
+                
+                if (trigger.currentEvent.Count > 0)
                 {
-                    trigger.end();
-                }
-                else if (trigger.currentEvent != null)
-                {
-                    for (int i = 0; i < trigger.currentEvent.Count; i++)
+                    if (!PlayerMove)
+                    {
+                        trigger.end();
+                        PlayerMove = true;
+                    }
+                    else {
+                        PlayerMove = false;
+                        trigger.display();
+                    }
+                    /*for (int i = 0; i < trigger.currentEvent.Count; i++)
                     {
                         //Debug.Log(trigger.currentEvent[i].words);
                         
@@ -60,11 +67,15 @@ public class PlayerMovment : MonoBehaviour {
                             {
                                 PlayerMove = false;
                                 trigger.display();
-                                noteP.AddNote(trigger.currentEvent[i]);
+                                //noteP.AddNote(trigger.currentEvent[i]);
                             }
                             trigger.currentEvent[i] = null;
                         }
-                    }
+                        else
+                        {
+
+                        }
+                    }*/
                 }
             }
         }
